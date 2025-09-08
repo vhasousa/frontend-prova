@@ -11,15 +11,6 @@ export default function Layout() {
           <NavLink to="/" end className={({isActive}) => `link ${isActive ? "active": ""}`}>
             Início
           </NavLink>
-          <NavLink to="/funcionarios" className={({isActive}) => `link ${isActive ? "active": ""}`}>
-            Funcionários
-          </NavLink>
-          <NavLink to="/clientes" className={({isActive}) => `link ${isActive ? "active": ""}`}>
-            Clientes
-          </NavLink>
-          <NavLink to="/fornecedores" className={({isActive}) => `link ${isActive ? "active": ""}`}>
-            Fornecedores
-          </NavLink>
           <NavLink to="/alunos" className={({isActive}) => `link ${isActive ? "active": ""}`}>
             Alunos
           </NavLink>
