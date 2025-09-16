@@ -14,6 +14,9 @@ export default function Layout() {
           <NavLink to="/alunos" className={({isActive}) => `link ${isActive ? "active": ""}`}>
             Alunos
           </NavLink>
+          <NavLink to="/professores" className={({isActive}) => `link ${isActive ? "active": ""}`}>
+            Professores
+          </NavLink>
         </nav>
       </aside>
 
